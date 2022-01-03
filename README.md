@@ -2,7 +2,9 @@
 An improved version of my old python bot, now in java, based off msesjrl's python selenium bot
 
 # How to run
-If you have java installed you should be able to double-click **Bombparty-bot.jar** and it should run.
+**If you do not have java installed, you should be able to simply double click the Bombparty.exe (not tested) or Bombparty file located in the pre-built folder.**
+
+If you have java installed or the pre-built binaries dont work, you can double-click **Bombparty-bot.jar** and it should run.
 
 You can also open a terminal or cmd in the folder and run:
 ```
