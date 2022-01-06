@@ -37,17 +37,19 @@ public class Main {
 		List<String> stringList = Files.readAllLines(filePath, charset);
 		String[] wordlist = stringList.toArray(new String[] {});
 
-		// System.out.println ("Bombparty-Bot Started Successfully");
-
 		while (true) {
+			if (!(driver.findElements(By.xpath("/html/body/div[2]/div[4]/div[1]/iframe")).size() > 0))
 			while (true) {
 				try {
 					driver.switchTo().frame(0); // Switch to correct iframe
+					if (!(driver.findElements(By.xpath("/html/body/div[2]/div[3]/div[1]/div[1]/button")).size() > 0)) {
+						driver.switchTo().parentFrame();
+					}
 				} catch (Exception e) {
 					break;
 				}
 			}
-
+			
 			while (true) {
 				try {
 					driver.findElement(By.xpath("/html/body/div[2]/div[3]/div[1]/div[1]/button")).click(); // Auto join
