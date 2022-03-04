@@ -3,7 +3,8 @@ An improved version of my old python bot, now in java, based off msesjrl's pytho
 
 # How to run
 **If you do not have java installed, you should be able to simply double click the Bombparty.exe (not tested) or Bombparty file located in the pre-built folder.**
-(note: pre-builts might not download cause my github lfs bandwidth is used very quickly, if the pre-builts dont download just run the .jar)
+
+(note: pre-builts might not download cause my github lfs bandwidth is used very quickly, if the pre-builts dont download you can still download the .jar from https://drive.google.com/file/d/1a18HqOClUzhO351pUZI8s3fyBAg3MjOa/view?usp=sharing)
 
 If you have java installed or the pre-built binaries dont work, you can double-click **Bombparty-bot.jar** and it should run.
 
