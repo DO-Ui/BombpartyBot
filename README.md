@@ -17,3 +17,5 @@ If you dont have java you can get it for free at https://www.oracle.com/java/tec
 
 # Errors
 If you run the bot with the terminal and get chromedriver errors then open your google chrome and check what version (9x.xxx...) you have. Then download that version from https://chromedriver.chromium.org/downloads and replace the one in provided in your OS' folder. For example if you have version 92.0.4515.159 you would download the ChromeDriver for version 92.
+
+There currently seems to be a bug where the code will try and use the mac chromedriver even if you are on windows. I'll try and fix this soon but for now just move the chromedriver.exe from the windows folder into the mac folder and remove the `.exe` at the end.
