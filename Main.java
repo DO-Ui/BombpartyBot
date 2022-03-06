@@ -20,7 +20,7 @@ public class Main {
 		if (System.getProperty("os.name").equals("Linux")) {
 			File chromeFile = new File(CURR_DIR + "/linux/chromedriver");
 			System.setProperty("webdriver.chrome.driver", chromeFile.getAbsolutePath());
-		} else if (System.getProperty("os.name").equals("Windows")) {
+		} else if (System.getProperty("os.name").startsWith("Windows")) {
 			File chromeFile = new File(CURR_DIR + "/windows/chromedriver.exe");
 			System.setProperty("webdriver.chrome.driver", chromeFile.getAbsolutePath());
 		} else {
